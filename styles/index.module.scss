@@ -1,0 +1,309 @@
+.hero_section {
+  padding: 2rem;
+  background: var(--background);
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    .logo {
+      position: relative;
+      span {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+
+        display: flex;
+        align-items: center;
+
+        background: linear-gradient(96.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+
+      img {
+        position: absolute;
+        right: -16px;
+        top: -12px;
+      }
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+
+      li {
+        a {
+          color: var(--text-secondary);
+          text-decoration: none;
+
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+
+          transition: all 0.2s ease-in;
+        }
+
+        a:hover {
+          color: var(--primary-color);
+        }
+
+        .active {
+          color: var(--primary-color);
+        }
+      }
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 28px;
+      gap: 10px;
+
+      width: 280px;
+      height: 56px;
+
+      background: linear-gradient(96.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+      box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+      border-radius: 100px;
+      border: none;
+      color: white;
+      transition: all 0.5s ease-in-out;
+
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 23px;
+
+      &:hover {
+        background: linear-gradient(96.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+        box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+        transform: translateY(-5px);
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    max-width: 1120px;
+    margin: 2rem auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .principal {
+      h1 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        display: flex;
+        align-items: center;
+
+        /* Gradient 1 */
+
+        background: linear-gradient(96.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+
+      p {
+        font-family: "Sora";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 16px;
+        color: var(--text-secondary);
+      }
+
+      button {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 28px;
+        gap: 10px;
+
+        width: 260px;
+        height: 56px;
+
+        background: linear-gradient(96.14deg, #3a8ef6 -10.84%, #6f3afa 196.74%);
+        box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+        border-radius: 100px;
+        border: none;
+        color: white;
+        transition: all 0.5s ease-in-out;
+
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+
+        &:hover {
+          background: linear-gradient(
+            96.14deg,
+            #3a8ef6 -10.84%,
+            #6f3afa 196.74%
+          );
+          box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+          transform: translateY(-5px);
+        }
+      }
+    }
+  }
+}
+
+.partners_section {
+  background: var(--background-secondary);
+  padding: 48px 195px;
+  box-sizing: border-box;
+
+  h2 {
+    display: block;
+    text-align: center;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #031432;
+
+    opacity: 0.8;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1120px;
+    margin-top: 48px;
+  }
+}
+
+.our_services {
+  background: var(--background);
+  padding: 120px 0;
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      h2 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #031432;
+
+        opacity: 0.8;
+      }
+
+      p {
+        width: 565px;
+        height: 48px;
+
+        font-family: "Sora";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #6c87ae;
+
+        opacity: 0.8;
+      }
+    }
+
+    .services {
+      margin-top: 64px;
+      display: flex;
+      gap: 36px;
+
+      .service_card {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px;
+
+        width: 346px;
+
+        background: #ffffff;
+        box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+        border-radius: 24px;
+
+        .content {
+          h3 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 21px;
+            color: #000000;
+          }
+
+          p {
+            margin-top: 12px;
+            font-family: "Sora";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #6c87ae;
+          }
+        }
+
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 16px 28px;
+          gap: 10px;
+
+          width: 280px;
+          height: 56px;
+
+          background: linear-gradient(
+            96.14deg,
+            #3a8ef6 -10.84%,
+            #6f3afa 196.74%
+          );
+          box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+          border-radius: 100px;
+          border: none;
+          color: white;
+          transition: all 0.5s ease-in-out;
+
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 23px;
+
+          &:hover {
+            background: linear-gradient(
+              96.14deg,
+              #3a8ef6 -10.84%,
+              #6f3afa 196.74%
+            );
+            box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
+  }
+}
