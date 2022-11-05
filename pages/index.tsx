@@ -155,6 +155,194 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className={styles.our_clinic}>
+        <div className={styles.container}>
+          <Image src="/clinic.png" width={523} height={405} alt="clinic" />
+          <div className={styles.content}>
+            <h2>Nossa Clínica</h2>
+            <p>
+              Situada em Pouso Alegre - MG, perto do centro, com uma ótima
+              localização, venha nos fazer uma visita e se surpreender com os
+              nosssos serviços{" "}
+            </p>
+            <button>
+              <Image src="/whatsapp.svg" alt="whats" width={24} height={24} />
+              Agendar
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.our_space}>
+        <div className={styles.container}>
+          <div className={styles.content}>
+            <h2>Instalações de luxo humanizadas</h2>
+            <p>
+              O melhor atendimento na melhor clínica da região, venha conferir!
+            </p>
+            <button>
+              <Image src="/whatsapp.svg" alt="whats" width={24} height={24} />
+              Agendar
+            </button>
+          </div>
+          <Image src="/space.png" width={518} height={510} alt="clinic" />
+        </div>
+      </section>
+
+      <section className={styles.marketing}>
+        <div className={styles.container}>
+          <h2>Faça um agendamento agora mesmo!</h2>
+          <p>Entre em contato para marcar um agendamento com o Dr. Alexis!</p>
+          <div className={styles.buttons}>
+            <button className={styles.calendarButton}>
+              <Image src="/calendar.svg" alt="whats" width={24} height={24} />
+              Calendário
+            </button>
+            <button className={styles.whatsButton}>
+              <Image
+                src="/whatsappBlue.svg"
+                alt="whats"
+                width={24}
+                height={24}
+              />
+              Agendar
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.testimonial}>
+        <div className={styles.container}>
+          <h2>O que nossos pacientes dizem</h2>
+          <p className={styles.description}>
+            O hospital é parte integrante de uma organização social e de saúde
+            com a função de prestar serviços integrais (abrangentes).
+          </p>
+          <div className={styles.testimonials}>
+            <div className={styles.testimonial_card}>
+              <p className={styles.testimonial_text}>
+                Click edit button to change this text. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div className={styles.testimonial_pacient}>
+                <Image
+                  src="/pacient.png"
+                  width={50}
+                  height={50}
+                  alt="pacient"
+                />
+                <div className={styles.pacient_info}>
+                  <h3>John Doe</h3>
+                  <p>CEO at Google</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.testimonial_card}>
+              <p className={styles.testimonial_text}>
+                Click edit button to change this text. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div className={styles.testimonial_pacient}>
+                <Image
+                  src="/pacient.png"
+                  width={50}
+                  height={50}
+                  alt="pacient"
+                />
+                <div className={styles.pacient_info}>
+                  <h3>John Doe</h3>
+                  <p>CEO at Google</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.testimonial_card}>
+              <p className={styles.testimonial_text}>
+                Click edit button to change this text. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div className={styles.testimonial_pacient}>
+                <Image
+                  src="/pacient.png"
+                  width={50}
+                  height={50}
+                  alt="pacient"
+                />
+                <div className={styles.pacient_info}>
+                  <h3>John Doe</h3>
+                  <p>CEO at Google</p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.testimonial_card}>
+              <p className={styles.testimonial_text}>
+                Click edit button to change this text. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <div className={styles.testimonial_pacient}>
+                <Image
+                  src="/pacient.png"
+                  width={50}
+                  height={50}
+                  alt="pacient"
+                />
+                <div className={styles.pacient_info}>
+                  <h3>John Doe</h3>
+                  <p>CEO at Google</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className={styles.footer}>
+        <div className={styles.container}>
+          <div className={styles.main}>
+            <div className={styles.content}>
+              <div className={styles.logo}>
+                <span>Dr. Alexis</span>
+                <Image src="/plus.svg" alt="plus" width={24} height={24} />
+              </div>
+              <p>
+                Jl. Lebak Bulus I Kav. 29 Cilandak Jakarta Selatan, DKI Jakarta,
+                Indonesia 12340
+              </p>
+              <div className={styles.socials}>
+                <Image src="/facebook.svg" alt="plus" width={24} height={24} />
+                <Image src="/youtube.svg" alt="plus" width={24} height={24} />
+                <Image src="/whatsapp.svg" alt="plus" width={24} height={24} />
+              </div>
+            </div>
+            <div className={styles.informacoes}>
+              <h3>Informações</h3>
+              <ul>
+                <li>Home</li>
+                <li>Serviços</li>
+                <li>Clínica</li>
+                <li>Contato</li>
+              </ul>
+            </div>
+            <div className={styles.contact}>
+              <h3>Contato</h3>
+              <ul>
+                <li>Telefone: (35) 9 9999-9999</li>
+                <li>
+                  Email:
+                  <a href="mailto:pascal@email.com">email</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.copyright}>
+            <span>Copyright © PascalTech 2022</span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
