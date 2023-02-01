@@ -4,7 +4,7 @@ import styles from "../styles/index.module.scss";
 
 export default function Home() {
   const handleGetInTouch = () => {
-    const whats = "5531999999999";
+    const whats = "5535998709895";
     const message = "Olá, gostaria de agendar uma consulta!";
 
     window.open(`https://wa.me/${whats}?text=${message}`, "_blank");
@@ -454,11 +454,7 @@ export default function Home() {
             <div className={styles.contact}>
               <h3>Contato</h3>
               <ul>
-                <li>Telefone: (35) 9 9999-9999</li>
-                <li>
-                  Email:
-                  <a href="mailto:pascal@email.com">email</a>
-                </li>
+                <li>Telefone: +55 (35) 99870-9895 </li>
               </ul>
             </div>
           </div>
